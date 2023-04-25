@@ -1,10 +1,1 @@
-jobs:
-  devcard:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: devcard
-        uses: dailydotdev/action-devcard@2.1.0
-        with:
-          devcard_id: ${{ secrets.DEVCARD_ID }}
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/labryn/labryn/blob/master/devcard.svg" width="400" alt="Drew Hester's Dev Card"/></a>
